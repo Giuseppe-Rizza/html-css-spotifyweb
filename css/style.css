@@ -13,7 +13,7 @@ body {
 /* macro blocco principale */
 #wrapper {
     display: flex;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 100px);
     /* DEBUG */
     background-color: red;
 }
@@ -29,6 +29,12 @@ body {
 
 
 /* blocco di contenuto principale */
+
+#topbar {
+    height: 100px;
+    background-color: black;
+}
+
 #wrapper main {
     overflow: auto;
     height: 100%;
@@ -41,8 +47,8 @@ body {
 /* player/controller */
 
 #player {
-    height: 150px;
-    background-color: darkgray;
+    height: 100px;
+    background-color: black;
 }
 
 
