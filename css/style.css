@@ -15,7 +15,7 @@ body {
     display: flex;
     height: calc(100vh - 100px);
     /* DEBUG */
-    background-color: red;
+    background-color: black;
 }
 
 
@@ -23,8 +23,10 @@ body {
 #wrapper nav {
     height: 100%;
     width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
     /* DEBUG */
-    background-color: blueviolet;
+    background-color: black;
 }
 
 
@@ -41,6 +43,24 @@ body {
     width: calc(100% - 250px);
     /* DEBUG */
     background-color: green;
+}
+
+nav img {
+    width: 100px;
+}
+
+ul li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul img {
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
