@@ -34,7 +34,7 @@ body {
 
 #topbar {
     height: 100px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.866);
 }
 
 #wrapper main {
@@ -42,7 +42,7 @@ body {
     height: 100%;
     width: calc(100% - 250px);
     /* DEBUG */
-    background-color: green;
+    background-color: red;
 }
 
 nav {
@@ -89,9 +89,8 @@ nav p img {
 
 #player {
     height: 100px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.842);
 }
-
 
 
 /* versione small mmobile */
