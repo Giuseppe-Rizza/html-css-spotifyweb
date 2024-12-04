@@ -45,8 +45,12 @@ body {
     background-color: green;
 }
 
+nav {
+    color: lightgray;
+}
+
 nav img {
-    width: 100px;
+    width: 150px;
 }
 
 ul li {
@@ -60,7 +64,24 @@ ul img {
 
 a {
     text-decoration: none;
-    color: white;
+    color: lightgray;
+}
+
+nav h2 {
+    margin-top: 20px;
+}
+
+nav p img {
+    width: 20px;
+}
+
+.lg-margin-top {
+    margin-top: 220px;
+}
+
+.profile-btn {
+    border-radius: 50%;
+    background-color: lightgray;
 }
 
 
