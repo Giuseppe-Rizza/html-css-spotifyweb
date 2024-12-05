@@ -18,7 +18,6 @@ body {
     background-color: black;
 }
 
-
 /* blocco navigazione principale */
 #wrapper nav {
     height: 100%;
@@ -26,7 +25,7 @@ body {
     margin-left: 20px;
     margin-top: 20px;
     /* DEBUG */
-    background-color: black;
+    /* background-color: black; */
 }
 
 
@@ -38,12 +37,20 @@ body {
     margin-bottom: 20px;
 }
 
+.upgrade-btn {
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.866);
+    border: 2px solid white;
+    color: white;
+}
+
 #wrapper main {
     overflow: auto;
     height: 100%;
     width: calc(100% - 250px);
     /* DEBUG */
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.866);
 }
 
 nav {
@@ -105,7 +112,8 @@ h2 {
     height: 300px;
     display: flex;
     justify-content: space-around;
-    background-color: blue;
+    background-color: rgba(124, 119, 119, 0.26);
+    max-width: 100%;
 }
 
 .card {
@@ -129,7 +137,7 @@ main h3 {
     height: 300px;
     display: flex;
     justify-content: flex-start;
-    background-color: blue;
+    background-color: rgba(124, 119, 119, 0.26);
 }
 
 
@@ -145,9 +153,38 @@ footer img {
     width: 40px;
 }
 
+/* versione tablet */
+
+@media screen and (max-width:878px) {
+
+    /* blocco navigazione principale */
+    #wrapper nav {
+        width: 160px;
+    }
+
+    .first-row,
+    .other-rows {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    /* blocco di contenuto principale */
+    #wrapper main {
+        width: calc(100% - 160px);
+    }
+
+    main ul {
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+}
+
 
 /* versione small mmobile */
-@media screen and (max-width:480px) {
+@media screen and (max-width:552px) {
 
     /* blocco navigazione principale */
     #wrapper nav {
