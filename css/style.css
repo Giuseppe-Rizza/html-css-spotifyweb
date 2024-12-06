@@ -21,7 +21,7 @@ body {
 /* blocco navigazione principale */
 #wrapper nav {
     height: 100%;
-    width: 250px;
+    width: 14%;
     margin-left: 20px;
     margin-top: 20px;
     /* DEBUG */
@@ -67,7 +67,7 @@ ul li {
 }
 
 ul img {
-    width: 20px;
+    width: 10%;
 }
 
 a {
@@ -109,23 +109,21 @@ h2 {
 
 .first-row {
     width: 100%;
-    height: 300px;
+    height: 45%;
     display: flex;
     justify-content: space-around;
     background-color: rgba(124, 119, 119, 0.26);
-    max-width: 100%;
 }
 
 .card {
-    width: 200px;
-    height: 220px;
+    width: 14%;
     text-align: center;
     color: lightgray;
-    margin-left: 0;
+    margin: 10px 10px;
 }
 
 .card img {
-    height: 180px;
+    max-width: 100%;
 }
 
 main h3 {
@@ -134,7 +132,7 @@ main h3 {
 
 .other-rows {
     width: 100%;
-    height: 300px;
+    height: 45%;
     display: flex;
     justify-content: flex-start;
     background-color: rgba(124, 119, 119, 0.26);
@@ -149,10 +147,6 @@ main h3 {
     background-color: rgba(0, 0, 0, 0.842);
 }
 
-footer img {
-    width: 40px;
-}
-
 /* versione tablet */
 
 @media screen and (max-width:878px) {
@@ -162,21 +156,24 @@ footer img {
         width: 160px;
     }
 
-    .first-row,
-    .other-rows {
-        width: 90%;
-        flex-wrap: wrap;
-    }
-
     /* blocco di contenuto principale */
     #wrapper main {
         width: calc(100% - 160px);
     }
 
+    .first-row,
+    .other-rows {
+        flex-wrap: wrap;
+    }
+
     main ul {
         width: 70%;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+    }
+
+    main ul li {
+        margin-left: 8%;
     }
 
 
